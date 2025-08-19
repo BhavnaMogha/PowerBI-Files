@@ -1,6 +1,24 @@
+steps in project------>
+
+
+business requirement
+data info
+data connection
+data cleaning
+data modeling
+data processing
+dax calculation
+dashboard layout
+graph development 
+report/insight
+
+
+
+
 blinkit analysis---->
 
-Business requirement--
+Business requirement-->
+
 To conduct a comprehensive analysis of blinkit
 sales performance,customer satisfaction,and 
 inventory distribution to identify key insight
@@ -19,9 +37,9 @@ kpi Requirements:
 **CHARTS REQUIREMENT**
 1.TOTAL SALES BY FAT CONTENT
 --OBJECTIVE:Analyze the impact of fat content in total sales
---add kpi metrics:Assess how other kpi(
+--add kpi metrics:Assess how other kpi(total_sales
   avg sales,no of items,avg rat)vary with fat content
---chart type:donut chart
+--chart type:donut chart,pie chart
 2.total sales by item type
 --objective:identify the performance of diff item types in terms of sales
 --add kpi metrics:Assess how other kpi(

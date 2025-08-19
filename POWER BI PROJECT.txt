@@ -1,0 +1,112 @@
+Employee Performance & Labour Cost Dashboard-->
+**Objective:
+
+To monitor employee productivity, attendance, shift performance, and calculate labor costs per unit or job to optimize efficiency and reduce overhead.
+
+
+DATASET---->
+Employee Master Data
+
+Employee ID, Name, Role, Department, Wage Rate
+
+Attendance Records
+
+Date, Employee ID, Check-in/out Time, Shift
+
+Production Logs
+
+Date, Employee ID, Machine ID, Label Type, Units Produced
+
+Payroll Data
+
+Overtime Hours, Regular Hours, Pay per Hour, Total Salary
+
+
+KPI	Description
+1. Units Produced per Hour	Measures individual roductivity
+
+2. Labor Cost per Unit	Total labor cost divided by units produced
+
+3. Overtime Hours	Tracks extra time worked beyond normal hours
+
+4. Idle Time	Time not spent producing (e.g., machine breakdown, waiting)
+
+5. Attendance Rate	Days Present ÷ Working Days
+
+6.	 Shift Performance	Output and labor cost comparisons between shifts
+
+
+Insights------->
+
+Identify top-performing employees
+
+Optimize shift allocation based on productivity
+
+Discover cost-saving opportunities by reducing overtime or reassigning low-performers
+
+Track impact of absenteeism on production
+
+
+
+
+2. Custom Label Order Tracking System------->
+
+Objective:
+
+To manage and track custom label orders (e.g., customer-branded or special materials), monitor fulfillment timelines, and analyze profitability per order.
+
+Data Sources----->
+
+Order Data
+
+Order ID, Customer Name, Label Type, Customizations (color, size, logo), Quantity, Order Date, Due Date
+
+Production Timeline
+
+Order ID, Production Start Date, Completion Date, Delays, Issues
+
+Cost Data
+
+Material Cost, Labor Cost, Total Price Charged
+
+Delivery Data
+
+Order ID, Ship Date, Delivery Status, Carrier
+
+
+
+Dashboard Sections & Visuals--->
+1. Order Summary Overview
+
+KPI cards: Total Orders, Avg. Lead Time, On-Time Delivery Rate, Total Revenue
+
+2. Order Status Tracker
+
+Table: Order ID, Customer, Status (In Production, Completed, Delayed, Delivered), Lead Time
+
+3. Customization Breakdown
+
+Pie Chart: Label Types
+
+Stacked Bar: Orders by Custom Feature (e.g., Color, Size, Branding)
+
+4. Profit Analysis
+
+Bar Chart: Profit per Order
+
+Heatmap: Profitability by Customer
+
+5. Timeline View
+
+Gantt-style chart: Order stages (Placed → Production → Shipped)
+
+
+Insights---->
+
+Spot production bottlenecks in custom orders
+
+Identify high-value or low-margin customers
+
+Track late deliveries and reasons
+
+Optimize material sourcing or scheduling to reduce lead time
